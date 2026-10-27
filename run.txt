@@ -1,0 +1,5 @@
+# 1. 실제 Antigravity SDK 및 Gemini 모델을 사용하여 구현 및 검증
+python run_harness.py --case cases/my_prd.json
+
+# 2. SDK 없이 파이프라인 흐름만 시뮬레이션할 때
+python run_harness.py --case cases/my_prd.json --mock

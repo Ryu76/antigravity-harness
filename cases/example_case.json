@@ -1,0 +1,14 @@
+{
+  "id": "algo-01-unique-sorted",
+  "description": "숫자 리스트 중복 제거 및 정렬 함수 구현 과제",
+  "prompt": "test_solution.py에 작성된 단위 테스트를 통과하도록 solution.py에 unique_sorted(numbers) 함수를 구현하고 저장하세요.",
+  "initial_files": {
+    "test_solution.py": "from solution import unique_sorted\n\ndef test_unique_sorted():\n    assert unique_sorted([3, 1, 2, 3, 2, 1]) == [1, 2, 3]\n    assert unique_sorted([]) == []\n    assert unique_sorted([5, 5, 5]) == [5]\n    print(\"ALL TESTS PASSED\")\n\nif __name__ == '__main__':\n    test_unique_sorted()\n"
+  },
+  "expected_files": [
+    "solution.py"
+  ],
+  "verification_command": "python test_solution.py",
+  "disallowed_tools": [],
+  "timeout_seconds": 60
+}

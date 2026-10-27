@@ -1,0 +1,15 @@
+# Antigravity Test Harness 필수 의존성 패키지
+
+# 1. Google AI & Antigravity SDK
+google-antigravity>=0.1.16
+google-genai>=2.22.0
+
+# 2. Security & Environment Configuration (.env 암복호화 관리)
+cryptography>=42.0.0
+python-dotenv>=1.0.0
+
+# 3. Data Validation & Utilities
+pydantic>=2.0.0
+
+# 4. Testing & Verification Oracle (하네스 단위 테스트 검증)
+pytest>=8.0.0
